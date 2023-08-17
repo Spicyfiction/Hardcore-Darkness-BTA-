@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "spicyfiction.hardcore_darkness.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "WorldMixin",
+    "WorldTypeMixin",
+    "Accessors.WorldTypeAccessor"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

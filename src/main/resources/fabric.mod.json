@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "hardcore_darkness",
+  "version": "${version}",
+
+  "name": "Hardcore Darkness",
+  "description": "Fear the dark once more",
+  "authors": [
+    "Spicyfiction",
+    "Credits to MartinSVK12 for the configuration file code"
+
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "spicyfiction.hardcore_darkness.HardcoreDarkness"
+    ]
+  },
+  "mixins": [
+    "hardcore_darkness.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  },
+  "suggests": {
+  }
+}
