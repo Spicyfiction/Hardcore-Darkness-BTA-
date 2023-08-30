@@ -28,7 +28,7 @@ public class Config {
             BufferedWriter configWriter = new BufferedWriter(new FileWriter(configFile));
             configWriter.write(
                     "// Hardcore Darkness configuration file. Configure options here." + System.getProperty("line.separator") +
-                        "//Configure minimum light level in dimensions here. Note: null means vanilla light level will be used"
+                        "//Configure minimum light brightness in dimensions here. Note: null means vanilla light brightness will be used"
             );
 
             for (Dimension dimension : Dimension.getDimensionList().values()) {
